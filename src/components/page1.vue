@@ -31,9 +31,11 @@
 
   .container {
     position: relative;
+    width: 100%;
+    height: 100%;
     .bg-img {
-      width: 375px;
-      height: 667px;
+      width: 100%;
+      height: 100%;
     }
     .text {
       .right-icon {

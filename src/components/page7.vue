@@ -8,20 +8,18 @@
       <span class="line-3">——境外度假北京团队等你 <br></span>
     </div>
     <div class="content">
-      <div class="title"><span>Java工程师</span></div>
+      <div class="title"><span>FE高级开发工程师</span></div>
       <img class="img-left-1" src="../assets/img/weneedyou.png" alt="">
       <div class="text">
-        <p>岗位职责： <br>
-          1.负责业务平台系统API设计和核心功能开发；<br>
-          2.负责系统核心功能设计与相关文档的编写；<br>
-          3.负责业务研发计划制定和进度推进。<br>
-          任职要求：<br>
-          1.计算机或相关专业本科以上学历；<br>
-          2.熟练掌握Java语言，熟悉 Spring、SpringMVC、mybatis等框架；<br>
-          3.熟悉mysql、redis等数据库，熟悉数据库优化；<br>
-          4.互联网5年以上工作经验，3年以上系统架构设计经验；<br>
-          5.有很强的计划与执行能力、项目管理能力，有丰富的项目管理经验。<br>
-          6.具有较强学习能力、自我驱动能力、责任感。<br>
+        <p>工作职责 <br>
+          1.负责境外度假业务用户端和商户端的研发工作 <br>
+          2.关注代码质量、研发效率、用户体验 <br>
+          职位要求 <br>
+          1.熟悉Mobile Web/Hybrid Web App等开发 <br>
+          2.注重细节的习惯，大胆假设、小心求证的态度 <br>
+          3.深入分析理解业务需求，承担复杂的任务，高质量的产出 <br>
+          4.捕获灵感，创造性解决问题的思路，提升界面交互和代码执行效率 <br>
+          5.指导低层级的工程师完成业绩、素质和技能的提升 <br>
         </p>
       </div>
     </div>
@@ -31,7 +29,7 @@
 
 <script>
   export default {
-    name: "page4"
+    name: "page7"
   }
 </script>
 

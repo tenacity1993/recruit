@@ -26,6 +26,7 @@ export default {
   html,body {
     position: relative;
     height: 100%;
+    font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif
   }
   body {
     background: #eee;
@@ -43,15 +44,15 @@ export default {
     @keyframes mymove
     {
       0% {
-        top: 610px;
+        top: 510px;
       }
 
       50% {
-        top: 630px;
+        top: 530px;
       }
 
       100% {
-        top: 610px;
+        top: 510px;
       }
     }
     .arrow {

@@ -8,20 +8,17 @@
       <span class="line-3">——境外度假北京团队等你 <br></span>
     </div>
     <div class="content">
-      <div class="title"><span>Java工程师</span></div>
+      <div class="title"><span>Android高级开发工程师</span></div>
       <img class="img-left-1" src="../assets/img/weneedyou.png" alt="">
       <div class="text">
-        <p>岗位职责： <br>
-          1.负责业务平台系统API设计和核心功能开发；<br>
-          2.负责系统核心功能设计与相关文档的编写；<br>
-          3.负责业务研发计划制定和进度推进。<br>
-          任职要求：<br>
-          1.计算机或相关专业本科以上学历；<br>
-          2.熟练掌握Java语言，熟悉 Spring、SpringMVC、mybatis等框架；<br>
-          3.熟悉mysql、redis等数据库，熟悉数据库优化；<br>
-          4.互联网5年以上工作经验，3年以上系统架构设计经验；<br>
-          5.有很强的计划与执行能力、项目管理能力，有丰富的项目管理经验。<br>
-          6.具有较强学习能力、自我驱动能力、责任感。<br>
+        <p>工作职责 <br>
+          1.负责境外度假业务的研发工作，完善代码复用方案<br>
+          2.提升境外场景下的应用体验，调研新技术<br>
+          职位要求 <br>
+          1.3年或以上Android开发经验，深入理解Java语言，扎实的编码基础，对数据结构、算法具有深入理解<br>
+          2.熟悉Android系统源码，具备丰富的Android开发调试经验及性能调优能力<br>
+          3.具备复杂应用的架构设计能力，熟悉敏捷开发及项目管理流程<br>
+          4.积极主动，有良好的团队合作精神和强烈的责任感，对移动产品有浓厚兴趣及见解<br>
         </p>
       </div>
     </div>
@@ -31,7 +28,7 @@
 
 <script>
   export default {
-    name: "page4"
+    name: "page5"
   }
 </script>
 

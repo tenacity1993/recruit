@@ -4,11 +4,11 @@
     <swiper-slide class="swiper-item"><page2></page2></swiper-slide>
     <swiper-slide class="swiper-item"><page3></page3></swiper-slide>
     <swiper-slide class="swiper-item"><page4></page4></swiper-slide>
-    <swiper-slide class="swiper-item">Slide 5</swiper-slide>
-    <swiper-slide class="swiper-item">Slide 6</swiper-slide>
-    <swiper-slide class="swiper-item">Slide 7</swiper-slide>
-    <swiper-slide class="swiper-item">Slide 8</swiper-slide>
-    <swiper-slide class="swiper-item">Slide 9</swiper-slide>
+    <swiper-slide class="swiper-item"><page5></page5></swiper-slide>
+    <swiper-slide class="swiper-item"><page6></page6></swiper-slide>
+    <swiper-slide class="swiper-item"><page7></page7></swiper-slide>
+    <swiper-slide class="swiper-item"><page8></page8></swiper-slide>
+    <swiper-slide class="swiper-item"><page9></page9></swiper-slide>
     <swiper-slide class="swiper-item">Slide 10</swiper-slide>
     <div class="swiper-pagination" slot="pagination"></div>
   </swiper>
@@ -21,6 +21,12 @@
   import page2 from './page2'
   import page3 from './page3'
   import page4 from './page4'
+  import page5 from './page5'
+  import page6 from './page6'
+  import page7 from './page7'
+  import page8 from './page8'
+  import page9 from './page9'
+
 
   export default {
     data() {
@@ -43,7 +49,12 @@
       page1,
       page2,
       page3,
-      page4
+      page4,
+      page5,
+      page6,
+      page7,
+      page8,
+      page9
     }
   }
 </script>

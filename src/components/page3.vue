@@ -47,9 +47,11 @@
 <style scoped lang="scss">
   .container {
     position: relative;
+    width: 100%;
+    height: 100%;
     .bg-img {
-      width: 375px;
-      height: 667px;
+      width: 100%;
+      height: 100%;
     }
     .title-box {
       display: inline-block;

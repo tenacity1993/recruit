@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 
+
 import 'vue2-animate/dist/vue2-animate.min.css'
 
 import VueAwesomeSwiper from 'vue-awesome-swiper'
