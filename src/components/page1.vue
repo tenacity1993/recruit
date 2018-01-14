@@ -28,66 +28,67 @@
 <style scoped lang="scss">
 
   /*@import "../assets/style/font.scss";*/
+  @import "../assets/style/mixin";
 
   .container {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: rem(750);
+    height: rem(1334);
     .bg-img {
-      width: 100%;
-      height: 100%;
+      width: rem(750);
+      height: rem(1334);
     }
     .text {
       .right-icon {
         position: absolute;
         z-index: 2;
-        top: 20px;
-        right: 20px;
-        width: 188px;
-        height: 114px;
-        background: url("../assets/img/joinus1.png") no-repeat;
+        top: rem(40);
+        right: rem(40);
+        width: rem(376);
+        height: rem(228);
+        background: url("../assets/img/joinus1.png") no-repeat center/100%;
       }
       .title-1 {
         position: absolute;
-        left: 70px;
-        top: 70px;
+        left: rem(140);
+        top: rem(140);
         color: #fff;
-        font-size: 16px;
+        font-size: rem(32);
         line-height: 1.8;
       }
       .title-2 {
         position: absolute;
-        left: 54px;
-        top: 100px;
+        left: rem(108);
+        top: rem(200);
         color: #fff;
-        font-size: 23px;
+        font-size: rem(46);
         line-height: 1.5;
       }
       .title-3 {
         position: absolute;
-        width: 200px;
-        left: 24px;
-        top: 140px;
+        width: rem(400);
+        left: rem(48);
+        top: rem(280);
         background-color: #fffa7c;
-        font-size: 14px;
+        font-size: rem(28);
         color: #000;
         line-height: 1.8;
       }
       .icon-circle {
         position: absolute;
-        top: 180px;
-        left: 130px;
-        width: 18px;
-        height: 18px;
+        top: rem(360);
+        left: rem(260);
+        width: rem(36);
+        height: rem(36);
         background: url("../assets/img/circle.png") no-repeat center/100%;
       }
     }
     .sologn {
       position: absolute;
-      top: 200px;
-      right: 20px;
+      top: rem(400);
+      right: rem(40);
       p {
-        font-size: 14px;
+        font-size: rem(28);
         line-height: 2;
         text-align: right;
         color: #fff;

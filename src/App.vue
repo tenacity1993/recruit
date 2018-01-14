@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <audio src=""></audio>
     <recruit></recruit>
     <div class="bottom">
       <i class="arrow"></i>
@@ -19,6 +20,8 @@ export default {
 </script>
 
 <style lang="scss">
+
+  @import "./assets/style/mixin";
   * {
     margin: 0;
     padding: 0;
@@ -33,26 +36,26 @@ export default {
   }
   .bottom {
     position: fixed;
-    top: 620px;
+    top: rem(1240);
     left: 50%;
-    margin-left: -20px;
-    width: 40px;
-    height: 20px;
+    margin-left: rem(-40);
+    width: rem(80);
+    height: rem(40);
 
     animation: mymove 1.5s infinite;
 
     @keyframes mymove
     {
       0% {
-        top: 510px;
+        top: rem(1200);
       }
 
       50% {
-        top: 530px;
+        top: rem(1060);
       }
 
       100% {
-        top: 510px;
+        top: rem(1200);
       }
     }
     .arrow {

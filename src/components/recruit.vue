@@ -9,7 +9,6 @@
     <swiper-slide class="swiper-item"><page7></page7></swiper-slide>
     <swiper-slide class="swiper-item"><page8></page8></swiper-slide>
     <swiper-slide class="swiper-item"><page9></page9></swiper-slide>
-    <swiper-slide class="swiper-item">Slide 10</swiper-slide>
     <div class="swiper-pagination" slot="pagination"></div>
   </swiper>
 

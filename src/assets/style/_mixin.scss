@@ -1,0 +1,5 @@
+$base: 75;
+
+@function rem($px) {
+  @return $px / $base * 1rem;
+}

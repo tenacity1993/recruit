@@ -25,89 +25,92 @@
 </script>
 
 <style scoped lang="scss">
+
+  @import "../assets/style/mixin";
+
   .container {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: rem(750);
+    height: rem(1334);
     .bg-img {
-      width: 100%;
-      height: 100%;
+      width: rem(750);
+      height: rem(1334);
     }
     .head {
       display: inline-block;
       position: absolute;
-      top: 128px;
-      left: 20px;
-      width: 200px;
-      height: 42px;
+      top: rem(256);
+      left: rem(40);
+      width: rem(400);
+      height: rem(84);
       text-align: left;
       border-bottom: 2px solid #fff;
       font-size: 0;
       .head-img {
         display: inline-block;
         vertical-align: middle;
-        width: 150px;
-        height: 42px;
+        width: rem(300);
+        height: rem(84);
         background: url("../assets/img/aboutus1.png") no-repeat center/90%;
       }
       .icon-circle {
         display: inline-block;
         vertical-align: middle;
-        margin-left: 20px;
-        width: 18px;
-        height: 18px;
+        margin-left: rem(40);
+        width: rem(36);
+        height: rem(36);
         background: url("../assets/img/circle.png") no-repeat center/100%;
       }
       .text-aboutus {
         display: inline-block;
-        margin: 3px 0 10px 100px;
+        margin: rem(6) 0 rem(20) rem(200);
         font-weight: 700;
-        font-size: 20px;
+        font-size: rem(40);
         color: #fff;
       }
     }
 
     .content {
       position: absolute;
-      top: 260px;
-      left: 82px;
-      width: 264px;
-      height: 348px;
+      top: rem(520);
+      left: rem(164);
+      width: rem(528);
+      height: rem(696);
       border: 2px solid #27e7c6;
       color: #fff;
       .title-1 {
-        font-size: 16px;
+        font-size: rem(32);
       }
       p {
         margin: 0 auto;
         text-align: center;
-        text-indent: 32px;
+        text-indent: rem(64);
         width: 80%;
-        padding-top: 50px;
+        padding-top: rem(100);
         text-align: left;
-        font-size: 12px;
+        font-size: rem(24);
         line-height: 2;
         .title-2 {
-          font-size: 16px;
+          font-size: rem(32);
         }
       }
     }
 
     .img-aboutus {
       position: absolute;
-      left: 10px;
-      top: 390px;
-      width: 35px;
-      height: 218px;
+      left: rem(20);
+      top: rem(780);
+      width: rem(70);
+      height: rem(436);
       background: url("../assets/img/aboutus2.png") no-repeat center/100%;
     }
     .medal {
       position: absolute;
       z-index: 3;
-      top: 260px;
-      left: 82px;
-      width: 65px;
-      height: 81px;
+      top: rem(520);
+      left: rem(164);
+      width: rem(130);
+      height: rem(162);
       background: #27e7c6 url("../assets/img/medal.jpg") no-repeat center/100%;
       transform: translate(-50%, -50%);
 

@@ -6,6 +6,26 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">    <title>recruit</title>
   </head>
+  <script type="text/javascript">(function () {
+    var a = window.navigator.userAgent;
+    var c = document.documentElement;
+    var e = document.querySelector("html");
+    var b = /Android/i.test(a);
+    var g = window.devicePixelRatio || 1;
+    var h = c.clientWidth / 10;
+    e.style.fontSize = h + "px";
+    var f = window.getComputedStyle;
+    var i = parseFloat(e.style.fontSize, 10);
+    var d = parseFloat(f(e)["font-size"], 10);
+    console.log(i,d,i-d);
+    if (f && Math.abs(i - d) >= 1) {
+      e.style.fontSize = i * (i / d) + "px"
+    }
+    e.setAttribute("data-dpr", g);
+    if (b) {
+      e.setAttribute("data-platform", "android")
+    }
+  })()</script>
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->

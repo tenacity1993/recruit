@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 
+import './assets/style/_mixin.scss'
 
 import 'vue2-animate/dist/vue2-animate.min.css'
 

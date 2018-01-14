@@ -34,38 +34,41 @@
 </script>
 
 <style scoped lang="scss">
+
+  @import "../assets/style/mixin";
+
   .container {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: rem(750);
+    height: rem(1334);
     .bg-img {
-      width: 100%;
-      height: 100%;
+      width: rem(750);
+      height: rem(1334);
     }
     .bg-img-boy {
-      width: 62px;
-      height: 88px;
+      width: rem(124);
+      height: rem(176);
       position: absolute;
-      left: 26px;
-      top: 220px;
+      left: rem(52);
+      top: rem(440);
     }
 
     .sologn {
       position: absolute;
-      left: 20px;
-      top: 20px;
+      left: rem(40);
+      top: rem(40);
       color: #fff;
-      font-size: 12px;
+      font-size: rem(24);
       text-align: left;
 
       .line-2 {
-        text-indent: 48px;
+        text-indent: rem(96);
       }
 
       .line-3 {
         display: block;
-        margin-top: 20px;
-        margin-left: 150px;
+        margin-top: rem(40);
+        margin-left: rem(300);
       }
 
     }
@@ -73,39 +76,39 @@
     .content {
       .title {
         position: absolute;
-        top: 318px;
-        left: 66px;
-        width: 260px;
-        height: 30px;
+        top: rem(636);
+        left: rem(132);
+        width: rem(520);
+        height: rem(60);
         border: 2px solid #27e7c6;
-        border-radius: 30px;
+        border-radius: rem(60);
         background-color: #27e7c6;
 
         span {
-          line-height: 30px;
+          line-height: rem(60);
           text-align: center;
         }
       }
 
       .img-left-1 {
         position: absolute;
-        top: 370px;
-        left: 22px;
-        width: 18px;
-        height: 122px;
+        top: rem(740);
+        left: rem(44);
+        width: rem(36);
+        height: rem(244);
       }
 
       .text {
         position: absolute;
-        padding: 10px;
-        width: 280px;
-        top: 356px;
-        left: 60px;
+        padding: rem(20);
+        width: rem(560);
+        top: rem(712);
+        left: rem(120);
         border-left: 2px solid #27e7c6;
         border-right: 2px solid #27e7c6;;
 
         p {
-          font-size: 12px;
+          font-size: rem(24);
           line-height: 1.5;
           text-align: left;
           color: #fff;

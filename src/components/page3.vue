@@ -45,52 +45,54 @@
 </script>
 
 <style scoped lang="scss">
+  @import "../assets/style/mixin";
+
   .container {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: rem(750);
+    height: rem(1334);
     .bg-img {
-      width: 100%;
-      height: 100%;
+      width: rem(750);
+      height: rem(1334);
     }
     .title-box {
       display: inline-block;
       position: absolute;
       vertical-align: top;
-      width: 176px;
-      height: 40px;
-      top: 140px;
-      left: 10px;
+      width: rem(352);
+      height: rem(80);
+      top: rem(280);
+      left: rem(20);
       font-size: 0;
 
       .icon-left {
         position: absolute;
         left: 0px;
         top: 0px;
-        width: 56px;
-        height: 32px;
+        width: rem(112);
+        height: rem(64);
         background: url("../assets/img/joinus2.png") no-repeat center/100%;
       }
 
       .text-1 {
         position: absolute;
-        left: 76px;
+        left: rem(152);
         color: #fff;
         line-height: 1.2;
-        font-size: 16px;
+        font-size: rem(32);
       }
     }
     .content-box-1 {
       position: absolute;
-      top: 190px;
-      left: 24px;
-      width: 160px;
-      height: 202px;
+      top: rem(380);
+      left: rem(48);
+      width: rem(320);
+      height: rem(404);
       border: 2px solid #27e8c8;
       p {
         margin: 0 auto;
-        padding-left: 12px;
-        font-size: 14px;
+        padding-left: rem(24);
+        font-size: rem(28);
         line-height: 2.14;
         text-align: left;
         color: #fff;
@@ -98,28 +100,28 @@
     }
     .content-box-2 {
       position: absolute;
-      top: 242px;
-      left: 200px;
+      top: rem(484);
+      left: rem(400);
 
       .title {
-        font-size: 15px;
+        font-size: rem(30);
         color: #fff;
         line-height: 1.2;
         text-align: left;
       }
       .wave {
         display: block;
-        padding-left: 10px;
-        width: 31px;
-        height: 7px;
+        padding-left: rem(20);
+        width: rem(62);
+        height: rem(14);
         background: url("../assets/img/wave.png") no-repeat center/60%;
       }
 
       .text {
-        padding-top: 10px;
+        padding-top: rem(20);
         p {
-          padding-top: 10px;
-          font-size: 14px;
+          padding-top: rem(20);
+          font-size: rem(28);
           text-align: left;
           color: #fff;
         }
@@ -127,11 +129,10 @@
     }
     .meituan-img {
       position: absolute;
-      top: 410px;
-      left: 24px;
-      width: 160px;
-      height: 224px;
-      /*background-color: #fff;*/
+      top: rem(820);
+      left: rem(48);
+      width: rem(320);
+      height: rem(448);
       background: url("../assets/img/meituan.png") no-repeat center/100%;
     }
   }
