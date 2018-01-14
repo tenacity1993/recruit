@@ -1,1 +1,20 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><title>recruit</title><link href=./static/css/app.2ac3cd7e8a553ec14487ba5848703ab8.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.b3a6d218100184e4398e.js></script><script type=text/javascript src=./static/js/vendor.0be1491c3b1b699662f2.js></script><script type=text/javascript src=./static/js/app.eb8a9c65d4615f0896b1.js></script></body></html>
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><title>recruit</title><link href=./static/css/app.5db8ebf889d9de798e12c4a388980527.css rel=stylesheet></head><script type=text/javascript>(function () {
+    var a = window.navigator.userAgent;
+    var c = document.documentElement;
+    var e = document.querySelector("html");
+    var b = /Android/i.test(a);
+    var g = window.devicePixelRatio || 1;
+    var h = c.clientWidth / 10;
+    e.style.fontSize = h + "px";
+    var f = window.getComputedStyle;
+    var i = parseFloat(e.style.fontSize, 10);
+    var d = parseFloat(f(e)["font-size"], 10);
+    console.log(i,d,i-d);
+    if (f && Math.abs(i - d) >= 1) {
+      e.style.fontSize = i * (i / d) + "px"
+    }
+    e.setAttribute("data-dpr", g);
+    if (b) {
+      e.setAttribute("data-platform", "android")
+    }
+  })()</script><body><div id=app></div><script type=text/javascript src=./static/js/manifest.002ca62ff0dddb6b0829.js></script><script type=text/javascript src=./static/js/vendor.0be1491c3b1b699662f2.js></script><script type=text/javascript src=./static/js/app.8a0325c31854286a6bed.js></script></body></html>
