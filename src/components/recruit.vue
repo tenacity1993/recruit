@@ -59,13 +59,16 @@
 </script>
 
 <style lang="scss">
+  @import "../assets/style/mixin";
+
   .swiper-box {
-    width: 100vw;
-    height: 100vh;
+    width: rem(750);
+    height: rem(1334);
     margin: 0 auto;
   }
   .swiper-item {
     height: 100%;
+    width: 100%;
     text-align: center;
     font-size: 18px ;
     background: #fff;
