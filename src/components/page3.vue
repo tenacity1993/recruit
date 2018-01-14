@@ -34,7 +34,7 @@
           </p>
         </div>
       </div>
-      <div class="meituan-img"></div>
+      <img class="meituan-img" src="../assets/img/meituan.png">
     </div>
 </template>
 
@@ -133,7 +133,6 @@
       left: rem(48);
       width: rem(320);
       height: rem(448);
-      background: url("../assets/img/meituan.png") no-repeat center/100%;
     }
   }
 </style>

@@ -7,7 +7,7 @@
       <span class="text-aboutus">关于我们</span>
     </div>
     <div class="img-aboutus"></div>
-    <div class="medal"></div>
+    <img class="medal" src="../assets/img/medal.jpg">
     <div class="content">
       <span class="title-1">美团平台与酒旅事业群</span>
       <p>
@@ -111,7 +111,6 @@
       left: rem(164);
       width: rem(130);
       height: rem(162);
-      background: #27e7c6 url("../assets/img/medal.jpg") no-repeat center/100%;
       transform: translate(-50%, -50%);
 
     }

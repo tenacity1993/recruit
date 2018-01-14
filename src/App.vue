@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <audio src=""></audio>
     <recruit></recruit>
     <div class="bottom">
       <i class="arrow"></i>
